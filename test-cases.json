@@ -1,0 +1,27 @@
+{
+  "test_suite": "Speechify Speed Control",
+  "test_cases": [
+    {
+      "id": "TC001",
+      "title": "Valid minimum speed",
+      "preconditions": "User is logged in and has a document open",
+      "steps": [
+        "Navigate to speed control",
+        "Set speed to 0.5x"
+      ],
+      "expected_result": "Speed set to 0.5x, audio plays correctly",
+      "status": "Not Run"
+    },
+    {
+      "id": "TC002",
+      "title": "Below minimum speed",
+      "preconditions": "User is logged in and has a document open",
+      "steps": [
+        "Navigate to speed control",
+        "Set speed to 0.4x"
+      ],
+      "expected_result": "Error message displayed, speed rejected",
+      "status": "Not Run"
+    }
+  ]
+}
