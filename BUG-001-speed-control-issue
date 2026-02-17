@@ -1,1 +1,42 @@
+## Bug ID: 
+[speed conrol 001]
 
+## Summary:
+[Text speed does not change accurately going from max to min speed (4.5x to .5x)]
+
+## Environment:
+- **Browser/Device: Chrome** 
+- **OS: Windows 11** 
+- **Speechify Version: Web app** 
+- **User Type: Free** 
+
+## Severity:
+Medium/Low
+
+## Priority:
+P2
+
+## Steps to Reproduce:
+1. Opened a PDF document in Speechify Web App
+2. Started playing the audio (default speed 1.0x)
+3. Clicked the speed control button
+4. Change speed to 4.5x
+5. Audio changes correctly to max speed
+6. click speed control
+7. Change speed to .5x
+
+## Expected Result:
+Visual slider will change to .5x and audio should change correctly to min speed .5x
+
+## Actual Result:
+visual slider will change to .5x but audio will remain at max speed (4.5x)
+
+## Screenshots/Evidence:
+N/A
+
+## Reproducibility:
+Reproduced 4/5 times
+
+## Additional Notes:
+Refreshing the page will then fix the speed issue to match the visual slider at .5x
+- This only occurs when going from max to min settings, not from min to max speed settings or anything in between.
