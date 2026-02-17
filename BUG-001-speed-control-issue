@@ -1,8 +1,8 @@
 ## Bug ID: 
-[speed conrol 001]
+Speed Control 001
 
 ## Summary:
-[Text speed does not change accurately going from max to min speed (4.5x to .5x)]
+Text speed does not change accurately going from max to min speed (4.5x to .5x)
 
 ## Environment:
 - **Browser/Device: Chrome** 
@@ -11,7 +11,7 @@
 - **User Type: Free** 
 
 ## Severity:
-Medium/Low
+Medium
 
 ## Priority:
 P2
@@ -40,3 +40,4 @@ Reproduced 4/5 times
 ## Additional Notes:
 Refreshing the page will then fix the speed issue to match the visual slider at .5x
 - This only occurs when going from max to min settings, not from min to max speed settings or anything in between.
+- Browser console error: "Error: AudioContext state mismatch"
