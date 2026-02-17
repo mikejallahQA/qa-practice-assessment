@@ -1,0 +1,39 @@
+# Bug Report Template
+
+## Bug ID: 
+[e.g., SPEECH-001]
+
+## Summary:
+[One-line description of the bug]
+
+## Environment:
+- **Browser/Device:** 
+- **OS:** 
+- **Speechify Version:** 
+- **User Type:** [Free/Premium]
+
+## Severity:
+[Critical / High / Medium / Low]
+
+## Priority:
+[P0 / P1 / P2 / P3]
+
+## Steps to Reproduce:
+1. 
+2. 
+3. 
+
+## Expected Result:
+[What SHOULD happen]
+
+## Actual Result:
+[What ACTUALLY happened]
+
+## Screenshots/Evidence:
+[Attach if available]
+
+## Reproducibility:
+[Always / Sometimes / Once]
+
+## Additional Notes:
+[Any other relevant info]
